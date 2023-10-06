@@ -1,0 +1,38 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 effective-4.2 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -module-name printing
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Flutter
+import Foundation
+import Swift
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import printing
+@_hasMissingDesignatedInitializers @objc public class PrintingPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  public var jobs: [Swift.UInt32 : printing.PrintJob]
+  @objc public static func setDocument(job: Swift.UInt32, doc: Swift.UnsafePointer<Swift.UInt8>, size: Swift.UInt64)
+  @objc public static func setError(job: Swift.UInt32, message: Swift.UnsafePointer<Swift.CChar>)
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public func onLayout(printJob: printing.PrintJob, width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat, marginLeft: CoreFoundation.CGFloat, marginTop: CoreFoundation.CGFloat, marginRight: CoreFoundation.CGFloat, marginBottom: CoreFoundation.CGFloat)
+  public func onCompleted(printJob: printing.PrintJob, completed: Swift.Bool, error: Foundation.NSString?)
+  public func onHtmlRendered(printJob: printing.PrintJob, pdfData: Foundation.Data)
+  public func onHtmlError(printJob: printing.PrintJob, error: Swift.String)
+  public func onPageRasterized(printJob: printing.PrintJob, imageData: Foundation.Data, width: Swift.Int, height: Swift.Int)
+  public func onPageRasterEnd(printJob: printing.PrintJob, error: Swift.String?)
+  @objc deinit
+}
+@objc @_Concurrency.MainActor(unsafe) public class PrintJob : UIKit.UIPrintPageRenderer, UIKit.UIPrintInteractionControllerDelegate {
+  @_Concurrency.MainActor(unsafe) public var index: Swift.Int
+  @_Concurrency.MainActor(unsafe) public init(printing: printing.PrintingPlugin, index: Swift.Int)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func drawPage(at pageIndex: Swift.Int, in _: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var numberOfPages: Swift.Int {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc public func printInteractionController(_: UIKit.UIPrintInteractionController, choosePaper paperList: [UIKit.UIPrintPaper]) -> UIKit.UIPrintPaper
+  @_Concurrency.MainActor(unsafe) public func rasterPdf(data: Foundation.Data, pages: [Swift.Int]?, scale: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor(unsafe) public static func printingInfo() -> Foundation.NSDictionary
+  @objc deinit
+}

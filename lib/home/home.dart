@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     //         },
                     //       ),
                     Text(
-                      "Create Invoice",
+                      "Createe Invoice",
                       style: TextStyle(fontSize: 20),
                     ),
                   ],

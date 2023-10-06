@@ -1,0 +1,2312 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "printing",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "printing"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrintingPlugin",
+        "printedName": "PrintingPlugin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "jobs",
+            "printedName": "jobs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.UInt32 : printing.PrintJob]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrintJob",
+                    "printedName": "printing.PrintJob",
+                    "usr": "c:@M@printing@objc(cs)PrintJob"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8printing14PrintingPluginC4jobsSDys6UInt32VAA8PrintJobCGvp",
+            "mangledName": "$s8printing14PrintingPluginC4jobsSDys6UInt32VAA8PrintJobCGvp",
+            "moduleName": "printing",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.UInt32 : printing.PrintJob]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt32",
+                        "printedName": "Swift.UInt32",
+                        "usr": "s:s6UInt32V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PrintJob",
+                        "printedName": "printing.PrintJob",
+                        "usr": "c:@M@printing@objc(cs)PrintJob"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8printing14PrintingPluginC4jobsSDys6UInt32VAA8PrintJobCGvg",
+                "mangledName": "$s8printing14PrintingPluginC4jobsSDys6UInt32VAA8PrintJobCGvg",
+                "moduleName": "printing",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.UInt32 : printing.PrintJob]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt32",
+                        "printedName": "Swift.UInt32",
+                        "usr": "s:s6UInt32V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PrintJob",
+                        "printedName": "printing.PrintJob",
+                        "usr": "c:@M@printing@objc(cs)PrintJob"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8printing14PrintingPluginC4jobsSDys6UInt32VAA8PrintJobCGvs",
+                "mangledName": "$s8printing14PrintingPluginC4jobsSDys6UInt32VAA8PrintJobCGvs",
+                "moduleName": "printing",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8printing14PrintingPluginC4jobsSDys6UInt32VAA8PrintJobCGvM",
+                "mangledName": "$s8printing14PrintingPluginC4jobsSDys6UInt32VAA8PrintJobCGvM",
+                "moduleName": "printing",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setDocument",
+            "printedName": "setDocument(job:doc:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.UInt8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:SP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@printing@objc(cs)PrintingPlugin(cm)setDocumentWithJob:doc:size:",
+            "mangledName": "$s8printing14PrintingPluginC11setDocument3job3doc4sizeys6UInt32V_SPys5UInt8VGs6UInt64VtFZ",
+            "moduleName": "printing",
+            "static": true,
+            "objc_name": "setDocumentWithJob:doc:size:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setError",
+            "printedName": "setError(job:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@printing@objc(cs)PrintingPlugin(cm)setErrorWithJob:message:",
+            "mangledName": "$s8printing14PrintingPluginC8setError3job7messageys6UInt32V_SPys4Int8VGtFZ",
+            "moduleName": "printing",
+            "static": true,
+            "objc_name": "setErrorWithJob:message:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@printing@objc(cs)PrintingPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s8printing14PrintingPluginC8register4withySo07FlutterC9Registrar_p_tFZ",
+            "moduleName": "printing",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@printing@objc(cs)PrintingPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s8printing14PrintingPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "printing",
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onLayout",
+            "printedName": "onLayout(printJob:width:height:marginLeft:marginTop:marginRight:marginBottom:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintJob",
+                "printedName": "printing.PrintJob",
+                "usr": "c:@M@printing@objc(cs)PrintJob"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8printing14PrintingPluginC8onLayout8printJob5width6height10marginLeft0J3Top0J5Right0J6BottomyAA05PrintG0C_14CoreFoundation7CGFloatVA5PtF",
+            "mangledName": "$s8printing14PrintingPluginC8onLayout8printJob5width6height10marginLeft0J3Top0J5Right0J6BottomyAA05PrintG0C_12CoreGraphics7CGFloatVA5PtF",
+            "moduleName": "printing",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCompleted",
+            "printedName": "onCompleted(printJob:completed:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintJob",
+                "printedName": "printing.PrintJob",
+                "usr": "c:@M@printing@objc(cs)PrintJob"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSString?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8printing14PrintingPluginC11onCompleted8printJob9completed5erroryAA05PrintG0C_SbSo8NSStringCSgtF",
+            "mangledName": "$s8printing14PrintingPluginC11onCompleted8printJob9completed5erroryAA05PrintG0C_SbSo8NSStringCSgtF",
+            "moduleName": "printing",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onHtmlRendered",
+            "printedName": "onHtmlRendered(printJob:pdfData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintJob",
+                "printedName": "printing.PrintJob",
+                "usr": "c:@M@printing@objc(cs)PrintJob"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8printing14PrintingPluginC14onHtmlRendered8printJob7pdfDatayAA05PrintH0C_10Foundation0J0VtF",
+            "mangledName": "$s8printing14PrintingPluginC14onHtmlRendered8printJob7pdfDatayAA05PrintH0C_10Foundation0J0VtF",
+            "moduleName": "printing",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onHtmlError",
+            "printedName": "onHtmlError(printJob:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintJob",
+                "printedName": "printing.PrintJob",
+                "usr": "c:@M@printing@objc(cs)PrintJob"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8printing14PrintingPluginC11onHtmlError8printJob5erroryAA05PrintH0C_SStF",
+            "mangledName": "$s8printing14PrintingPluginC11onHtmlError8printJob5erroryAA05PrintH0C_SStF",
+            "moduleName": "printing",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPageRasterized",
+            "printedName": "onPageRasterized(printJob:imageData:width:height:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintJob",
+                "printedName": "printing.PrintJob",
+                "usr": "c:@M@printing@objc(cs)PrintJob"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8printing14PrintingPluginC16onPageRasterized8printJob9imageData5width6heightyAA05PrintH0C_10Foundation0J0VS2itF",
+            "mangledName": "$s8printing14PrintingPluginC16onPageRasterized8printJob9imageData5width6heightyAA05PrintH0C_10Foundation0J0VS2itF",
+            "moduleName": "printing",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPageRasterEnd",
+            "printedName": "onPageRasterEnd(printJob:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintJob",
+                "printedName": "printing.PrintJob",
+                "usr": "c:@M@printing@objc(cs)PrintJob"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8printing14PrintingPluginC15onPageRasterEnd8printJob5erroryAA05PrintI0C_SSSgtF",
+            "mangledName": "$s8printing14PrintingPluginC15onPageRasterEnd8printJob5erroryAA05PrintI0C_SSSgtF",
+            "moduleName": "printing",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrintingPlugin",
+                "printedName": "printing.PrintingPlugin",
+                "usr": "c:@M@printing@objc(cs)PrintingPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@printing@objc(cs)PrintingPlugin(im)init",
+            "mangledName": "$s8printing14PrintingPluginCACycfc",
+            "moduleName": "printing",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@printing@objc(cs)PrintingPlugin",
+        "mangledName": "$s8printing14PrintingPluginC",
+        "moduleName": "printing",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "printing",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "printing"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrintJob",
+        "printedName": "PrintJob",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "index",
+            "printedName": "index",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8printing8PrintJobC5indexSivp",
+            "mangledName": "$s8printing8PrintJobC5indexSivp",
+            "moduleName": "printing",
+            "declAttributes": [
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8printing8PrintJobC5indexSivg",
+                "mangledName": "$s8printing8PrintJobC5indexSivg",
+                "moduleName": "printing",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8printing8PrintJobC5indexSivs",
+                "mangledName": "$s8printing8PrintJobC5indexSivs",
+                "moduleName": "printing",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8printing8PrintJobC5indexSivM",
+                "mangledName": "$s8printing8PrintJobC5indexSivM",
+                "moduleName": "printing",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(printing:index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrintJob",
+                "printedName": "printing.PrintJob",
+                "usr": "c:@M@printing@objc(cs)PrintJob"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintingPlugin",
+                "printedName": "printing.PrintingPlugin",
+                "usr": "c:@M@printing@objc(cs)PrintingPlugin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8printing8PrintJobCAA5indexAcA14PrintingPluginC_Sitcfc",
+            "mangledName": "$s8printing8PrintJobCAA5indexAcA14PrintingPluginC_Sitcfc",
+            "moduleName": "printing",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "drawPage",
+            "printedName": "drawPage(at:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@printing@objc(cs)PrintJob(im)drawPageAtIndex:inRect:",
+            "mangledName": "$s8printing8PrintJobC8drawPage2at2inySi_So6CGRectVtF",
+            "moduleName": "printing",
+            "overriding": true,
+            "objc_name": "drawPageAtIndex:inRect:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "numberOfPages",
+            "printedName": "numberOfPages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@printing@objc(cs)PrintJob(py)numberOfPages",
+            "mangledName": "$s8printing8PrintJobC13numberOfPagesSivp",
+            "moduleName": "printing",
+            "overriding": true,
+            "objc_name": "numberOfPages",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@printing@objc(cs)PrintJob(im)numberOfPages",
+                "mangledName": "$s8printing8PrintJobC13numberOfPagesSivg",
+                "moduleName": "printing",
+                "overriding": true,
+                "objc_name": "numberOfPages",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "printInteractionController",
+            "printedName": "printInteractionController(_:choosePaper:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIPrintPaper",
+                "printedName": "UIKit.UIPrintPaper",
+                "usr": "c:objc(cs)UIPrintPaper"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPrintInteractionController",
+                "printedName": "UIKit.UIPrintInteractionController",
+                "usr": "c:objc(cs)UIPrintInteractionController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIPrintPaper]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIPrintPaper",
+                    "printedName": "UIKit.UIPrintPaper",
+                    "usr": "c:objc(cs)UIPrintPaper"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@printing@objc(cs)PrintJob(im)printInteractionController:choosePaper:",
+            "mangledName": "$s8printing8PrintJobC26printInteractionController_11choosePaperSo07UIPrintH0CSo0ieF0C_SayAGGtF",
+            "moduleName": "printing",
+            "objc_name": "printInteractionController:choosePaper:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rasterPdf",
+            "printedName": "rasterPdf(data:pages:scale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8printing8PrintJobC9rasterPdf4data5pages5scaley10Foundation4DataV_SaySiGSg04CoreI07CGFloatVtF",
+            "mangledName": "$s8printing8PrintJobC9rasterPdf4data5pages5scaley10Foundation4DataV_SaySiGSg12CoreGraphics7CGFloatVtF",
+            "moduleName": "printing",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printingInfo",
+            "printedName": "printingInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8printing8PrintJobC0A4InfoSo12NSDictionaryCyFZ",
+            "mangledName": "$s8printing8PrintJobC0A4InfoSo12NSDictionaryCyFZ",
+            "moduleName": "printing",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrintJob",
+                "printedName": "printing.PrintJob",
+                "usr": "c:@M@printing@objc(cs)PrintJob"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@printing@objc(cs)PrintJob(im)init",
+            "mangledName": "$s8printing8PrintJobCACycfc",
+            "moduleName": "printing",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@printing@objc(cs)PrintJob",
+        "mangledName": "$s8printing8PrintJobC",
+        "moduleName": "printing",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIPrintPageRenderer",
+        "superclassNames": [
+          "UIKit.UIPrintPageRenderer",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1493,
+      "length": 19,
+      "value": "\"net.nfet.printing\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1872,
+      "length": 10,
+      "value": "\"printPdf\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1913,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1963,
+      "length": 9,
+      "value": "\"printer\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2023,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2097,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2176,
+      "length": 12,
+      "value": "\"marginLeft\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2258,
+      "length": 11,
+      "value": "\"marginTop\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2341,
+      "length": 13,
+      "value": "\"marginRight\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2427,
+      "length": 14,
+      "value": "\"marginBottom\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2533,
+      "length": 5,
+      "value": "\"job\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2580,
+      "length": 9,
+      "value": "\"dynamic\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2622,
+      "length": 5,
+      "value": "\"job\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3315,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3352,
+      "length": 10,
+      "value": "\"sharePdf\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3395,
+      "length": 5,
+      "value": "\"doc\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3574,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 3608,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3651,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 3685,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3732,
+      "length": 3,
+      "value": "\"w\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 3766,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3814,
+      "length": 3,
+      "value": "\"h\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 3848,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3902,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3952,
+      "length": 9,
+      "value": "\"subject\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4002,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4070,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4107,
+      "length": 13,
+      "value": "\"convertHtml\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4161,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 4199,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4243,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 4282,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4330,
+      "length": 12,
+      "value": "\"marginLeft\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 4373,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4420,
+      "length": 11,
+      "value": "\"marginTop\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 4462,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4511,
+      "length": 13,
+      "value": "\"marginRight\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 4555,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4605,
+      "length": 14,
+      "value": "\"marginBottom\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 4650,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4719,
+      "length": 5,
+      "value": "\"job\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4791,
+      "length": 6,
+      "value": "\"html\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 4872,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 4900,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5272,
+      "length": 9,
+      "value": "\"baseUrl\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5326,
+      "length": 9,
+      "value": "\"baseUrl\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5398,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5435,
+      "length": 13,
+      "value": "\"pickPrinter\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5557,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 5591,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5630,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 5664,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5707,
+      "length": 3,
+      "value": "\"w\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 5741,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5785,
+      "length": 3,
+      "value": "\"h\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 5819,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5872,
+      "length": 14,
+      "value": "\"printingInfo\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5966,
+      "length": 11,
+      "value": "\"rasterPdf\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6007,
+      "length": 5,
+      "value": "\"doc\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6072,
+      "length": 7,
+      "value": "\"pages\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6129,
+      "length": 7,
+      "value": "\"scale\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6228,
+      "length": 5,
+      "value": "\"job\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6416,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6746,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6774,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6804,
+      "length": 12,
+      "value": "\"marginLeft\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6842,
+      "length": 11,
+      "value": "\"marginTop\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6878,
+      "length": 13,
+      "value": "\"marginRight\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6918,
+      "length": 14,
+      "value": "\"marginBottom\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6960,
+      "length": 5,
+      "value": "\"job\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7040,
+      "length": 10,
+      "value": "\"onLayout\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7249,
+      "length": 11,
+      "value": "\"completed\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7285,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7320,
+      "length": 5,
+      "value": "\"job\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7382,
+      "length": 13,
+      "value": "\"onCompleted\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7641,
+      "length": 5,
+      "value": "\"doc\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7702,
+      "length": 5,
+      "value": "\"job\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7764,
+      "length": 16,
+      "value": "\"onHtmlRendered\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7971,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 7999,
+      "length": 5,
+      "value": "\"job\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8061,
+      "length": 13,
+      "value": "\"onHtmlError\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8294,
+      "length": 7,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8359,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8387,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8417,
+      "length": 5,
+      "value": "\"job\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8479,
+      "length": 18,
+      "value": "\"onPageRasterized\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8640,
+      "length": 5,
+      "value": "\"job\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8675,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 8737,
+      "length": 17,
+      "value": "\"onPageRasterEnd\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintingPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 14,
+      "value": "\"printing.PrintingPlugin\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1407,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1436,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1820,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "FloatLiteral",
+      "offset": 1847,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "FloatLiteral",
+      "offset": 1855,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "FloatLiteral",
+      "offset": 1889,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2371,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2438,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2539,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3497,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 3511,
+      "length": 28,
+      "value": "\"Unable to find printer URL\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4024,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 4038,
+      "length": 23,
+      "value": "\"Printer not available\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4322,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5099,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 5274,
+      "length": 68,
+      "value": "\"Unable to print: \""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 5325,
+      "length": 15,
+      "value": "\"unknown error\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 5341,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5672,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6171,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 6185,
+      "length": 24,
+      "value": "\"Printing not available\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6846,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7085,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 7099,
+      "length": 28,
+      "value": "\"Unable to find printer URL\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7576,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 7590,
+      "length": 23,
+      "value": "\"Printer not available\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7884,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8480,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 8655,
+      "length": 47,
+      "value": "\"sharePdf error: \""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 8701,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 8920,
+      "length": 9,
+      "value": "\"subject\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9379,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9697,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9726,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "FloatLiteral",
+      "offset": 10076,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10302,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 10415,
+      "length": 11,
+      "value": "\"paperRect\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 10478,
+      "length": 15,
+      "value": "\"printableRect\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10693,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 12251,
+      "length": 75,
+      "value": "\"Unable to pick printer: \""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 12309,
+      "length": 15,
+      "value": "\"unknown error\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 12325,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 12646,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 12704,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 12756,
+      "length": 7,
+      "value": "\"model\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 12810,
+      "length": 10,
+      "value": "\"location\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13186,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13326,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 13664,
+      "length": 36,
+      "value": "\"Cannot raster a malformed PDF file\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13865,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13883,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13949,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14041,
+      "length": 4,
+      "value": "-180"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14336,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14381,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14820,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15112,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15136,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15313,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15334,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 15864,
+      "length": 13,
+      "value": "\"directPrint\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15879,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 15897,
+      "length": 15,
+      "value": "\"dynamicLayout\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15914,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 15932,
+      "length": 10,
+      "value": "\"canPrint\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15944,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 15962,
+      "length": 16,
+      "value": "\"canConvertHtml\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15980,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 15998,
+      "length": 10,
+      "value": "\"canShare\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16010,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 16028,
+      "length": 11,
+      "value": "\"canRaster\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16041,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 16059,
+      "length": 17,
+      "value": "\"canListPrinters\""
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16078,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/datart-6\/.pub-cache\/hosted\/pub.dev\/printing-5.11.0\/ios\/Classes\/PrintJob.swift",
+      "kind": "StringLiteral",
+      "offset": 994,
+      "length": 8,
+      "value": "\"printing.PrintJob\""
+    }
+  ]
+}
